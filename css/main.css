@@ -1,0 +1,49 @@
+
+
+
+header{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #7d97ad;
+}
+
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+
+
+hr{
+  background-color: #7d97ad;
+  height: 5px;
+  border: none;
+
+}
+
+a{
+  color: #2d3c49;
+}
+.logo{
+  padding-top: 20px;
+  width:80px
+}
+
+.item-title{
+  text-align: center;
+}
+
+.item-url{
+  text-align: center;
+
+}
