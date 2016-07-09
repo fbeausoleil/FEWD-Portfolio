@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <title>My portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" >
 
@@ -8,85 +9,124 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+
   <body>
-  <div class="container">
+    <main class="container">
 
-    <header class="row">
-      <div class="col-md-6"><img class="logo img-responsive" src="img/Z_BLEU.svg" ></div>
-      <div class="col-md-6">
-        <h1><p class="text-right">FREDERIC BEAUSOLEIL</p></h1>
-        <h3><p class="text-right">FRONT-END NINJA</p></h3>
-      </div>
-      <div class="col-md-12">
-        <hr>
-      </div>
-    </header>
+      <header class="row">
+        <div class="col-md-6"><img class="logo img-responsive" src="img/Z_BLEU.svg" alt="Zetta Industries logo" ></div>
+        <div class="col-md-6">
+          <h1 class="text-right">FREDERIC BEAUSOLEIL</h1>
+          <h3 class="text-right">FRONT-END NINJA</h3>
+        </div>
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </header>
 
-    <div class="row">
-      <div class="col-md-12">
-        <picture>
-          <source
-            class="img-responsive"
-            media="(min-width:1000px)"
-            srcset="img/Zetta_1140X350.jpg 1x">
-          <source
-            class="img-responsive"
-            media="(min-width:600px)"
-            srcset="img/Zetta_912X280.jpg 1x">
-          <source
-            class="img-responsive"
-            media="(min-width:310px)"
-            srcset="img/Zetta_584X180.jpg 1x">
-          <img class="img-responsive"  src="img/912x280.png">
-          <alt="Main Logo"
-        </picture>
-      </div>
-    </div>
+      <section class="row center-logo">
 
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Featured Work</h2>
-      </div>
-    </div>
+          <div class="col-md-12">
+            <picture>
+              <source
+                class="img-responsive"
+                media="(min-width:1000px)"
+                srcset="img/Zetta_1140X350.jpg 1x">
+              <source
+                class="img-responsive"
+                media="(min-width:600px)"
+                srcset="img/Zetta_912X280.jpg 1x">
+              <source
+                class="img-responsive"
+                media="(min-width:310px)"
+                srcset="img/Zetta_584X180.jpg 1x">
+              <img class="img-responsive"  src="img/912x280.png" alt="Zetta Logo">
 
+            </picture>
+          </div>
 
-    <div class="row">
-      <div class="col-md-4">
-        <picture>
-          <source
-            class="image-responsive"
-            media="(min-width:990px)"
-            srcset="img/mobile-phone-1087845_960_720.jpg">
-          <source
-            class="image-responsive"
-            media="(min-width:500px)"
-            srcset="img/mobile-phone-300.jpg">
+      </section>
 
-          <img class="img-responsive" src="img/mobile-phone-1087845_960_720.jpg">
-
-
-        </picture>
-        <h3 class="item-title">APPIFY</h3>
-        <p class="item-url"><a href="https://github.com/udacity/appify">https://github.com/udacity/appify/</a></p>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title">Featured Work</h2>
+        </div>
       </div>
 
-      <div class="col-md-4">
-        <img class="img-responsive" src="img/512px-Sonnenblume_Nahaufnahme_H.jpg" alt="Sunflower">
-        <h3 class="item-title">SUNFLOWER</h3>
-        <p class="item-url"><a href="https://github.com/udacity/dunflower">https://github.com/udacity/dunflower/</a></p>
-      </div>
 
-      <div class="col-md-4">
-        <img class="img-responsive" src="img/bokeh-1123696_960_720.jpg">
-        <h3 class="item-title">BOKEH</h3>
-        <p class="item-url"><a  href="https://github.com/udacity/bokeh"  >https://github.com/udacity/bokeh/</a></p>
-      </div>
+      <section class="row">
+        <div class="col-md-4">
+          <picture >
+            <source
+              class="img-responsive"
+              media="(min-width:990px)"
+              srcset="img/mobile-phone-480X339.jpg">
+            <source
+              class="img-responsive"
+              media="(min-width:500px)"
+              srcset="img/mobile-phone-960X200.jpg">
+            <source
+              class="img-responsive"
+              media="(min-width:310px)"
+              srcset="img/mobile-phone-480X100.jpg">
 
-    </div >
+            <img class="img-responsive" src="img/mobile-phone-480X339.jpg" alt="Mobile Apps">
+
+          </picture>
+
+          <h3 class="item-title">APPIFY</h3>
+          <p class="item-url"><a href="https://github.com/udacity/appify">https://github.com/udacity/appify/</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <picture >
+            <source
+              class="img-responsive"
+              media="(min-width:990px)"
+              srcset="img/sunflower-480X339.jpg">
+            <source
+              class="img-responsive"
+              media="(min-width:500px)"
+              srcset="img/sunflower-960X200.jpg">
+            <source
+              class="img-responsive"
+              media="(min-width:310px)"
+              srcset="img/sunflower-480X100.jpg">
+
+            <img class="img-responsive" src="img/sunflower-480X339.jpg" alt="Sunflower">
+          </picture>
+
+          <h3 class="item-title">SUNFLOWER</h3>
+          <p class="item-url"><a href="https://github.com/udacity/dunflower">https://github.com/udacity/dunflower/</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <picture >
+            <source
+              class="img-responsive"
+              media="(min-width:990px)"
+              srcset="img/bokeh-480X339.jpg">
+            <source
+              class="img-responsive"
+              media="(min-width:500px)"
+              srcset="img/bokeh-960X200.jpg">
+            <source
+              class="img-responsive"
+              media="(min-width:310px)"
+              srcset="img/bokeh-480X100.jpg">
+
+            <img class="img-responsive" src="img/bokeh-480X339.jpg" alt="Bokeh">
+          </picture>
+
+          <h3 class="item-title">BOKEH</h3>
+          <p class="item-url"><a  href="https://github.com/udacity/bokeh"  >https://github.com/udacity/bokeh/</a></p>
+        </div>
 
 
 
-  </div>
+
+    </section>
+    </main>
 
 
   </body>
